@@ -1,5 +1,5 @@
 [api]
-base_url = "http://xx.xxx.xxx.xxx"  # Or your actual base URL
+base_url = "http://xx.xxx.xxx.xxx"  #  Modify this to SAP system Internal IP Address
 port = 50000
 username = "DEVELOPER"  # Replace with your SAP username
 password = "ABAPtr2022#00"  # Replace with your SAP password
