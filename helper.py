@@ -12,13 +12,6 @@ PORT = api_config["port"]
 USERNAME = api_config["username"]
 PASSWORD = api_config["password"]
 
-# --- API Configuration ---
-# Move these to a config file or use environment variables
-# BASE_URL = "http://35.222.149.175"  # or your actual base URL
-# PORT = 50000
-# USERNAME = "DEVELOPER"  # Replace with your SAP username
-# PASSWORD = "ABAPtr2022#00"  # Replace with your SAP password
-
 def call_sap_rest_api(api_path, payload=None, method="GET"):
     """Calls an SAP REST API with basic authentication."""
 

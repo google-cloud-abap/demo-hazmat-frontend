@@ -21,12 +21,6 @@ GET_PROMPT_API = api_config["get_prompt_api"]
 GET_PRODUCT_API = api_config["get_product_api"]
 POST_PROMPT_API = api_config["post_prompt_api"]
 
-# --- API Endpoints ---
-# Consider moving these to a separate config file or environment variables
-# GET_PROMPT_API = "/sap/bc/hazmat_service/getPromptRepo"
-# GET_PRODUCT_API = "/sap/bc/hazmat_service/getProducts"
-# POST_PROMPT_API = "/sap/bc/hazmat_service/processPrompt"
-
 # --- Fetch Prompts ---
 #@st.cache_data  # Cache the API call to improve performance
 def fetch_prompts():
