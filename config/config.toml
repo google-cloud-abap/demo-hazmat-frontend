@@ -1,0 +1,9 @@
+[api]
+base_url = "http://35.222.149.175"  # Or your actual base URL
+port = 50000
+username = "DEVELOPER"  # Replace with your SAP username
+password = "ABAPtr2022#00"  # Replace with your SAP password
+
+get_prompt_api = "/sap/bc/hazmat_service/getPromptRepo"
+get_product_api = "/sap/bc/hazmat_service/getProducts"
+post_prompt_api = "/sap/bc/hazmat_service/processPrompt"
